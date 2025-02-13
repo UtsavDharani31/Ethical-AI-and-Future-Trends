@@ -27,4 +27,4 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   ```sh
   Press Win + R, type wsl, and hit Enter.
 
-#### "F000" macOS
+####  macOS
