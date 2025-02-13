@@ -59,3 +59,21 @@ A pre-configured Docker image has been created to simplify the setup process.
   ```sh
   Open a browser and go to http://localhost:8888
 
+
+## ⚡ Using a Supercomputer (HPC)
+(Complete this section after setting up the local environment.)
+
+### 🏗 Step 1: Access the HPC System
+
+- 🔑 Login via SSH:
+  ```sh
+  ssh username@hpc-server-address
+- 📦 Load Required Modules:
+  module load python/3.13
+  module load jupyter
+- 📡 Start a Jupyter Session on HPC:
+  jupyter notebook --no-browser --port=8888
+- 🌍 Access from Local Machine:
+  ssh -N -L 8888:localhost:8888 username@hpc-server-address
+
+
