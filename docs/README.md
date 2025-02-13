@@ -45,8 +45,8 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   sudo apt update && sudo apt upgrade -y
 
 ### 🔧 Step 2: Build and Use the Docker Image
-A pre-configured Docker image has been created to simplify the setup process.
-🛠 Docker Image Name: intro_to_hpc_ai_jupyter
+- A pre-configured Docker image has been created to simplify the setup process.
+- 🛠 Docker Image Name: intro_to_hpc_ai_jupyter
 
 #### 📥 Steps to Use the Docker Image
 - Pull the Docker Image:
