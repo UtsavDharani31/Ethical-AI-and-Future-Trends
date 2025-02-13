@@ -86,4 +86,5 @@ A pre-configured Docker image has been created to simplify the setup process.
 | 🏢 HPC   |    |    |   |
 | 📜 Jupyter   |    |   |   |
 
+This wiki ensures step-by-step documentation for users to follow easily, including setup, troubleshooting, and execution.
 
