@@ -81,7 +81,7 @@ A pre-configured Docker image has been created to simplify the setup process.
 ## 📋 How-To Documentation
 
 | 📂Category | 🤖 ChatGPT Prompt | ❓ Problem | ✅ Solution
-|----------|----------|----------|   |
+|----------|----------|----------|----------|
 | 💻 Local Computer  |   |    |   |
 | 🏢 HPC   |    |    |   |
 | 📜 Jupyter   |    |   |   |
