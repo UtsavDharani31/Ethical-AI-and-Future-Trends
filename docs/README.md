@@ -16,7 +16,7 @@ The wiki for this workshop follows a structured format to maintain clarity and a
 
 ### 🔧 Step 1: Open Terminal and Configure System  
 
-#### 🏁 Windows (WSL)  
+#### Windows (WSL)  
 - Install WSL:  
   ```sh
   wsl --install
@@ -27,7 +27,7 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   ```sh
   Press Win + R, type wsl, and hit Enter.
 
-####  macOS
+#### MacOS
 - Open Terminal:
   ```sh
   Press Command + Space, type Terminal, and hit Enter.
@@ -35,3 +35,27 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   ```sh
 
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+#### 🐧 Linux
+- Open Terminal:
+  ```sh
+  Press Ctrl + Alt + T.
+- Ensure Package Manager is Updated:
+  ```sh
+  sudo apt update && sudo apt upgrade -y
+
+### 🔧 Step 2: Build and Use the Docker Image
+A pre-configured Docker image has been created to simplify the setup process.
+🛠 Docker Image Name: intro_to_hpc_ai_jupyter
+
+#### 📥 Steps to Use the Docker Image
+- Pull the Docker Image:
+  ````sh
+  docker pull ud31/intro_to_hpc_ai_jupyter
+- Run the Docker Container:
+  ```sh
+  docker run -p 8888:8888 your-repo/intro_to_hpc_ai_jupyter
+- Access Jupyter Notebook:
+  ```sh
+  Open a browser and go to http://localhost:8888
+
