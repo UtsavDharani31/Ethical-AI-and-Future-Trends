@@ -69,11 +69,11 @@ A pre-configured Docker image has been created to simplify the setup process.
   ```sh
   ssh username@hpc-server-address
 - 📦 Load Required Modules:
-  module load python/3.13
-  module load jupyter
+  - module load python/3.13
+  - module load jupyter
 - 📡 Start a Jupyter Session on HPC:
-  jupyter notebook --no-browser --port=8888
+  - jupyter notebook --no-browser --port=8888
 - 🌍 Access from Local Machine:
-  ssh -N -L 8888:localhost:8888 username@hpc-server-address
+  - ssh -N -L 8888:localhost:8888 username@hpc-server-address
 
 
