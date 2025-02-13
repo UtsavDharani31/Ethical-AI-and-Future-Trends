@@ -20,3 +20,11 @@ The wiki for this workshop follows a structured format to maintain clarity and a
 - Install WSL:  
   ```sh
   wsl --install
+- Set up a Linux Distribution:
+  ```sh
+  wsl --set-default-version 2
+- Open WSL Terminal:
+  ```sh
+  Press Win + R, type wsl, and hit Enter.
+
+#### "F000" macOS
