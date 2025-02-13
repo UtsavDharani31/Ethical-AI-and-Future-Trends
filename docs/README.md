@@ -76,4 +76,14 @@ A pre-configured Docker image has been created to simplify the setup process.
 - 🌍 Access from Local Machine:
   - ssh -N -L 8888:localhost:8888 username@hpc-server-address
 
+## 🏛️ Legacy Content
+
+## 📋 How-To Documentation
+
+| 📂Category | 🤖 ChatGPT Prompt | ❓ Problem | ✅ Solution
+|----------|----------|----------|   |
+| 💻 Local Computer  |   |    |   |
+| 🏢 HPC   |    |    |   |
+| 📜 Jupyter   |    |   |   |
+
 
