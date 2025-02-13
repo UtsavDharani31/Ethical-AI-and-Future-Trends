@@ -28,3 +28,10 @@ The wiki for this workshop follows a structured format to maintain clarity and a
   Press Win + R, type wsl, and hit Enter.
 
 ####  macOS
+- Open Terminal:
+  ```sh
+  Press Command + Space, type Terminal, and hit Enter.
+- Ensure Homebrew is Installed:
+  ```sh
+
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
