@@ -78,13 +78,5 @@ The wiki for this workshop follows a structured format to maintain clarity and a
 
 ## 🏛️ Legacy Content
 
-## 📋 How-To Documentation
-
-| 📂Category | 🤖 ChatGPT Prompt | ❓ Problem | ✅ Solution
-|----------|----------|----------|----------|
-| 💻 Local Computer  |   |    |   |
-| 🏢 HPC   |    |    |   |
-| 📜 Jupyter   |    |   |   |
-
 This wiki ensures step-by-step documentation for users to follow easily, including setup, troubleshooting, and execution.
 
